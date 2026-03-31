@@ -1,0 +1,56 @@
+/* Responsive: Dispositivos móviles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Apilar verticalmente */
+        text-align: center;
+    }
+}
+
+/*boton descargar cv*/
+.boton_cv{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: center; /* Centra horizontalmente */
+}
+.btn-descarga {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente (opcional) */
+    flex-direction: column;  /* Apila el contenido y centra el botón */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    /* Estilos responsive */
+    max-width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.btn-descarga:hover {
+    background-color: #0056b3;
+}
+
+/*foto*/
+.contenedor-foto {
+  display: flex;
+  justify-content: center; /* Centra la foto en el article */
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.foto-circular {
+  width: 150px;           /* Ajusta el tamaño que quieras */
+  height: 150px;          /* Debe ser igual al ancho para un círculo perfecto */
+  border-radius: 50%;     /* Hace que las esquinas se unan en un círculo */
+  object-fit: cover;      /* Corta la imagen para que rellene el círculo sin estirarse */
+  border: 3px solid #007bff; /* Opcional: un marco de color */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1); /* Opcional: una sombra suave */
+}
+
+
+
